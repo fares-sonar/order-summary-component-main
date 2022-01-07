@@ -43,14 +43,12 @@ main .content {
 }
 
 main .image {
-  height: 25rem;
+  height: 20rem;
+  width: 100%;
 }
 
 main .image img {
   height: 100%;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 main .text h1 {
@@ -93,19 +91,19 @@ main .plan .music {
 }
 
 main .plan .music img {
-  height: 6rem;
+  height: 4rem;
   margin-right: 2rem;
 }
 
 main .plan .music h3 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #1f2f56;
   font-weight: 900;
   padding-bottom: 0.5rem;
 }
 
 main .plan .music span {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: #7280a7;
 }
@@ -127,13 +125,13 @@ main .button {
 }
 
 main .button a {
-  color: #e0e8ff;
+  color: white;
   font-size: 1.7rem;
 }
 
 main p {
   font-size: 1.7rem;
-  color: #1f2f56;
+  color: #7280a7;
   font-weight: 700;
 }
 
