@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  font-family: "Red Hat Display", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  background-color: #e0e8ff;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 30rem;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+main .content {
+  padding: 3rem;
+}
+
+main .image {
+  height: 15rem;
+}
+
+main .image img {
+  height: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+main .text h1 {
+  color: #1f2f56;
+  font-weight: 900;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+main .text p {
+  font-size: 1.1rem;
+  color: #7280a7;
+  line-height: 1.7;
+}
+
+main .plan {
+  background-color: #f5f7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+main .plan .music {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .plan .music img {
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+main .plan .music h3 {
+  color: #1f2f56;
+  font-weight: 900;
+  padding-bottom: 0.5rem;
+}
+
+main .plan .music span {
+  color: #7280a7;
+}
+
+main .plan .link a {
+  color: #3829e0;
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+main .button {
+  background: #3829e0;
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 0.8rem;
+  -webkit-box-shadow: 0 1.7rem 1rem #e0e8ff;
+          box-shadow: 0 1.7rem 1rem #e0e8ff;
+}
+
+main .button a {
+  color: #e0e8ff;
+}
+
+main p {
+  color: #1f2f56;
+  font-weight: 900;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
