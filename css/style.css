@@ -115,6 +115,11 @@ main .plan .link a {
   font-weight: 900;
 }
 
+main .plan .link a:hover {
+  text-decoration: none;
+  color: #5247c2;
+}
+
 main .button {
   background: #3829e0;
   padding: 2rem;
@@ -122,6 +127,10 @@ main .button {
   border-radius: 1.3rem;
   -webkit-box-shadow: 0 1.7rem 1rem #e0e8ff;
           box-shadow: 0 1.7rem 1rem #e0e8ff;
+}
+
+main .button:hover {
+  background-color: #5247c2;
 }
 
 main .button a {
