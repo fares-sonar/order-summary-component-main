@@ -18,7 +18,7 @@ Thanks for checking out this front-end coding challenge.
 ## Screenshot
 
 -Mobile
-![Mobile](./design/mobile-preview.jpg)
+![Mobile](./design/mobile-design.jpg)
 
 ### links
 
